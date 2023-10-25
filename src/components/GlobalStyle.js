@@ -45,3 +45,22 @@ img {
   display: block;
 }
 `;
+
+export const Box = styled.div`
+  margin: 24px auto;
+  padding: 36px;
+  width: 560px;
+  height: 100%;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  text-align: center;
+
+  h1,
+  h2 {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+`;
